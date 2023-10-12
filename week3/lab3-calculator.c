@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     
     if (strcmp(operation, "divide") == 0 && second == 0) {
         printf("invalid\n");
-        return 1;
+        return 0;
     }
     
     if (strcmp(operation, "multiply") == 0) {
